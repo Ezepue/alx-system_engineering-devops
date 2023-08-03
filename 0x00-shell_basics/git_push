@@ -1,0 +1,6 @@
+#!/bin/bash
+remote_name="origin"
+branch_name="master"
+git add .
+git commit -m 'updates'
+git push $remote_name &branch_name 
