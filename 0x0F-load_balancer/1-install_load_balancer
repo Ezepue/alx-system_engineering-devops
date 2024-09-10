@@ -15,8 +15,8 @@ frontend web
 
 backend servers
 	balance roundrobin
-	server web-01 18.234.249.63:80 check
-	server web-02 54.167.96.160:80 check
+	server web-01 54.90.50.238:80 check
+	server web-02 54.209.229.181:80 check
 ' >> /etc/haproxy/haproxy.cfg
 
 # Test config

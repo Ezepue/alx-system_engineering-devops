@@ -1,7 +1,7 @@
 # ssh config
 
 Host my_alx_server
-  Hostname 18.234.249.63
+  Hostname 54.90.50.238
   User ubuntu
   IdentityFile ~/.ssh/school
   PasswordAuthentication no
